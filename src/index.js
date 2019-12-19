@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
 
 import "./styles.css";
 
 function App() {
+  useEffect(() => {
+    console.log("App rendered.");
+  });
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
